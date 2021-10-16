@@ -1,0 +1,65 @@
+body{
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+section{
+padding: 10rem;
+}
+img{
+  width:20px;
+  height:30px;
+}
+h1{
+  color:hsl(0, 0%, 95%);
+  padding-bottom: 20px;
+  font-family: 'Big Shoulders Display', cursive;
+}
+p{
+  color: hsla(0,0%,100%,0.75);
+  font-family: 'Lexend Deca', sans-serif;
+}
+.row{
+  border-radius: 0px;
+}
+.img{
+  height: 50px;
+  padding:30px 250px 0px 50px;
+}
+.top{
+  background-color: hsl(31,77%,52%);
+}
+.middle{
+  background-color: hsl(184,100%,22%);
+}
+.bottom{
+  background-color: hsl(179,100%,13%);
+}
+.card-body{
+  padding:25px 80px 65px 50px;
+  text-align: left;
+}
+.footer{
+  padding: 5px 120px 50px 30px;
+}
+.btn{
+  border-radius: 20px;
+  background-color: hsl(0,0%,95%);
+}
+@madia only screen and(max-width:761px){
+  .card-body{
+    padding:25px;
+  }
+  .footer{
+    padding:10px;
+  }
+  .middle{
+    border-radius: 0
+  }
+  .bottom{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
